@@ -12,7 +12,7 @@
         "actions": ["update"],
         "before": {
           "id": "sg-0abc123def456ghi7",
-          "cidr_blocks": ["0.0.0.0/16"],
+          "cidr_blocks": ["192.168.1.1"],
           "from_port": 22,
           "to_port": 22,
           "tags": {"Name": "Web-Security-Group", "Environment": "production"}
